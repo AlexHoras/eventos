@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300;500;700&display=swap);
+* {
+  font-family: "M PLUS 1 Code";
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  background-color: #353e48;
+  color: #fff;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+.msg {
+  background-color: #D4EDDA;
+  color: #155724;
+  border: 1px solid #c36ecb;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+  margin: 0;
+}
+.row .card {
+  padding: 0;
+}
+.row .card .card-title {
+  color: blue;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.botao {
+  background-color: #f2a340;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+.botao:hover {
+  background-color: black;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+#navbar {
+  justify-content: space-between;
+}
+#navbar a {
+  font-size: 18px;
+  color: #757575;
+  transition: all 0.3s;
+}
+#navbar a:hover {
+  color: #f2a340;
+  transition: all 0.3s;
+}
+
+/* Search Container */
+#search-container {
+  background-image: url(/img/creed.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 400px;
+  padding: 150px;
+  text-align: center;
+  width: 100%;
+}
+#search-container h1 {
+  color: #F2A340;
+  font-size: 3em;
+  letter-spacing: 1px;
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+}
+#search-container form {
+  width: 50%;
+  margin: 0 auto;
+}
+#search-container form input {
+  border-radius: 30px;
+}
+
+#envents-container {
+  padding: 50px;
+}
+#envents-container h2 {
+  margin-bottom: 10px;
+}
+#envents-container .sub-title {
+  color: #757575;
+  margin-bottom: 30px;
+}
+#envents-container #cards-container {
+  display: flex;
+}
+#envents-container #cards-container .card {
+  flex: 1 1 24%;
+  max-width: 25%;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0.5%;
+}
+#envents-container #cards-container .card img {
+  max-height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#envents-container #cards-container .card .card-body .card-title {
+  color: #212121;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: left;
+}
+#envents-container #cards-container .card .card-body .card-date {
+  font-size: 12px;
+  color: #9b9696;
+}
+#envents-container #cards-container .card .card-body .card-participants {
+  font-size: 14px;
+  color: #757575;
+}
+
+#event-create-container {
+  padding: 30px;
+}
+#event-create-container form label {
+  font-weight: 700;
+}
+#event-create-container form input, #event-create-container form select, #event-create-container form textarea {
+  font-size: 14px;
+  margin: 5px 0;
+}
+#event-create-container form .botao {
+  margin-top: 20px;
+}
+
+#image-container, #info-container {
+  margin-top: 30px;
+}
+#image-container h3, #info-container h3 {
+  margin: 15px 0;
+}
+
+#image-container img {
+  border-radius: 10px 10px 0;
+}
+
+#items-list {
+  list-style: none;
+  padding-left: 0;
+}
+#items-list li {
+  display: flex;
+}
+
+#info-container h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+#info-container p {
+  margin: 0;
+  display: flex;
+}
+#info-container ion-icon {
+  font-size: 20px;
+  color: #f2a340;
+  margin-right: 20px;
+}
+#info-container .event-owner {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Dashboards */
+.dashboard-title-container{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.dashboard-events-container form{
+  display: inline-block;
+}
+
+/* Edit Page */
+.img-preview{
+  width: 150px;
+  margin-top: 20px;
+}
+
+.already-joined-msg{
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  padding: 10px;
+  width: 275px;
+}
